@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>APAC ER process and labor law</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand"><span class="mark"></span><span id="ui-brand"></span></div>
+      <div class="top-actions">
+        <nav class="nav">
+          <a href="#compare" id="ui-nav-compare"></a>
+          <a href="#countries" id="ui-nav-countries"></a>
+        </nav>
+        <div class="lang-switch" role="group" id="lang-switch">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="kicker" id="ui-kicker"></div>
+      <h1 id="ui-h1"></h1>
+      <p class="lede" id="ui-lede"></p>
+      <div class="hero-meta">
+        <span class="chip" id="ui-chip-date"></span>
+        <span class="chip" id="ui-chip-floor"></span>
+        <span class="chip" id="ui-chip-counsel"></span>
+      </div>
+    </section>
+
+    <p class="notice wrap" id="ui-notice"></p>
+
+    <section class="section wrap" id="compare">
+      <h2 id="ui-compare-h2"></h2>
+      <p class="sub" id="ui-compare-sub"></p>
+      <div class="table-wrap">
+        <table id="matrix"></table>
+      </div>
+    </section>
+
+    <section class="section wrap" id="countries">
+      <h2 id="ui-countries-h2"></h2>
+      <p class="sub" id="ui-countries-sub"></p>
+      <p class="hint" id="ui-pick-country"></p>
+      <div class="filters country-tabs" id="country-tabs"></div>
+      <article class="country-desk" id="country-desk"></article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap" id="ui-footer"></div>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/compact.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
